@@ -9,7 +9,7 @@ ESXi versions supported: 6.0 and higher
 Binary installation
 --------------------
 Preparation:
- - change acceptance level: esxcli software acceptance set -level=CommunitySupported
+ - change acceptance level: esxcli software acceptance set --level=CommunitySupported
 Installation:
   - esxcli software vib install -f -v <full_path_to_vib>/<vib_name>
     e.g esxcli software vib install -f -v /tmp/net670-atlantic-v2.2.3.0-esxi1.4.x86_x64.vib
